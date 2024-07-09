@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+.container {
+    background-color:  #F2F2F2;
+    padding: 20px;
+    border-radius: 8px;
+  
+    width: 300px;
+    max-width: 100%;
+  
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+.note-input {
+    margin-bottom: 20px;
+}
+#noteContent {
+    width: 90%;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #000; /* Borde negro */
+    border-radius: 10px; /* Borde redondeado */
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #000; /* Borde negro */
+    border-radius: 10px; /* Borde redondeado */
+    background-color:#4F4F4F;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+button:hover {
+    background-color: #333;
+}
+
+.textArea {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%;
+
+}
+
+
+.note {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #000; /* Borde negro */
+    border-radius: 10px; /* Borde redondeado */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    font-size: 16px;
+  
+    width: 84%; /* Ajusta el ancho al contenido */
+}
+
+.note span {
+    width: 55%;
+    margin-right: 130px;
+    text-align: start;
+    align-items: flex-start;
+    padding: 2px;
+    
+
+
+}
+
+.note button {
+ 
+    width: 80px;
+    height: 20px;
+    background-color: #ddd;
+    font-size: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px; /* Borde redondeado */
+    color: #555;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.note button:hover {
+    background-color: #bbb;
+}
